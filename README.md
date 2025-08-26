@@ -62,8 +62,6 @@ Puedes usar Postman, Insomnia o curl para probar los endpoints. Recuerda ingresa
 - El código está comentado para facilitar la revisión.
 
 ---
-
-<<<<<<< HEAD
 ## Ejecución con Docker
 
 Si tienes Docker instalado, puedes ejecutar la aplicación de forma sencilla y aislada. Sigue estos pasos:
@@ -114,6 +112,5 @@ El archivo `Dockerfile` incluido realiza los siguientes pasos:
 
 Para cualquier duda sobre la dockerización, consulta la documentación oficial de Docker: [https://docs.docker.com/](https://docs.docker.com/)
 
-=======
->>>>>>> 9c2940cace0ccc1995eb759a7180430d698bcd81
+>>>>>>>
 Si tienes algún problema para ejecutar el proyecto, revisa que tengas Java 21 instalado y Maven configurado correctamente. Para cualquier duda, consulta los comentarios en el código.
