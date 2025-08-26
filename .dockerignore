@@ -1,0 +1,13 @@
+# Ignora carpetas y archivos innecesarios para la imagen de Docker
+/target/*
+!/target/parcial-1.0-SNAPSHOT.jar
+/.idea
+/.vscode
+*.iml
+*.log
+*.md
+/test
+/src/test
+*.class
+*.jar
+
