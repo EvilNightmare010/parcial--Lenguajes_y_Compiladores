@@ -15,11 +15,19 @@ public class MultimediaController {
         this.multimediaService = multimediaService;
     }
 
+<<<<<<< HEAD
+=======
+    // Obtiene todos los registros multimedia
+>>>>>>> 9c2940cace0ccc1995eb759a7180430d698bcd81
     @GetMapping
     public List<Multimedia> getAll() {
         return multimediaService.findAll();
     }
 
+<<<<<<< HEAD
+=======
+    // Obtiene un registro multimedia por su id
+>>>>>>> 9c2940cace0ccc1995eb759a7180430d698bcd81
     @GetMapping("/{id}")
     public Optional<Multimedia> getById(@PathVariable Long id) {
         return multimediaService.findById(id);
@@ -40,5 +48,9 @@ public class MultimediaController {
     public void delete(@PathVariable Long id) {
         multimediaService.deleteById(id);
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> 9c2940cace0ccc1995eb759a7180430d698bcd81

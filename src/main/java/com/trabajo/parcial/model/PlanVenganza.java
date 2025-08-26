@@ -39,4 +39,8 @@ public class PlanVenganza {
     public void setId(Long id) {
         this.id = id;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9c2940cace0ccc1995eb759a7180430d698bcd81

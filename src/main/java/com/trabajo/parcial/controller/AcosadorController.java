@@ -25,17 +25,32 @@ public class AcosadorController {
         return acosadorService.findById(id);
     }
 
+<<<<<<< HEAD
+=======
+    // Crea un nuevo acosador
+>>>>>>> 9c2940cace0ccc1995eb759a7180430d698bcd81
     @PostMapping
     public Acosador create(@RequestBody Acosador acosador) {
         return acosadorService.save(acosador);
     }
 
+<<<<<<< HEAD
     @PutMapping("/{id}")
     public Acosador update(@PathVariable Long id, @RequestBody Acosador acosador) {
         acosador.setId(id);
         return acosadorService.save(acosador);
     }
 
+=======
+    // Actualiza un acosador existente por su id
+    @PutMapping("/{id}")
+    public Acosador update(@PathVariable Long id, @RequestBody Acosador acosador) {
+        acosador.setId(id); // Asigna el id recibido al objeto para actualizar el registro correcto
+        return acosadorService.save(acosador);
+    }
+
+    // Elimina un acosador por su id
+>>>>>>> 9c2940cace0ccc1995eb759a7180430d698bcd81
     @DeleteMapping("/{id}")
     public void delete(@PathVariable Long id) {
         acosadorService.deleteById(id);
